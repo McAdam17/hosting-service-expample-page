@@ -1,0 +1,233 @@
+@media only screen and (max-width: 768px) {
+    header{
+        margin-top: 10px;
+    }
+    header .contenedor-inicio{
+        margin-top: 60px;
+    }
+    .contenedor{
+        max-width: 730px;
+    }
+    .menu .contenedor nav ul li{
+        display: none;
+    }
+
+    .menu{
+        height: 50px;
+    }
+
+    .menu .contenedor {
+        height: 50px;
+    }
+
+    .menu .contenedor nav {
+        width: 28px;
+    }
+    .menu .contenedor nav ul{
+        background-image: url(./imagenes/icons8-menu.svg);
+        height: 28px;
+        background-repeat: no-repeat;
+        margin: 0px 0px;
+    }
+
+    /* Menu despegable */
+
+    
+
+
+
+
+    header .logo{
+        font-size: 23px;
+        font-weight: bold;
+    }
+
+    header .titular, header .imagen{
+        width: 100%;
+    }
+
+    header .contenedor-inicio .titular h1{
+        margin-top: 30px;
+        padding-top: 30px;
+    }
+
+    header .contenedor-inicio{
+        display: block;
+        position: relative;
+    }
+
+    header .contenedor-inicio .imagen{
+        position: absolute;
+        top: 250px;
+        text-align: center;
+    }
+
+    header .contenedor-inicio .imagen img{
+        width: 60%;
+    }
+    
+    header{
+        height: 700px;
+    }
+
+    /* Sercices*/
+
+    #services{
+        margin-top: 50px;
+        padding-top: 0px;
+    }
+
+    #services .contenedor{
+        justify-content: center;
+    }
+
+    #services .contenedor{
+    
+    }
+
+    #services h3{
+        font-size: 18px;
+    }
+
+    #services .contenedor .service{
+        margin: 0px 0px;
+        width: 39%;
+    }
+
+    #services .contenedor .service .movile{
+        display: none;
+    }
+    #services .contenedor .service .hiden{
+        display: block;
+    }
+
+    .contenedor-services-2{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #services .contenedor-services-2 .service{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #dos{
+        top: 0px;
+    }
+
+    #services .contenedor-services-2 .service .titulo{
+        display: flex;
+    }
+
+    #services .contenedor-services-2 .service .titulo h4{
+        margin-left: 10px;
+    }
+
+    /* Features */
+
+    #features .contenedor-titulo{
+        flex-direction: column;
+    }
+
+    #features .contenedor-titulo .titulo{
+        width: 100%;
+    }
+    #features .contenedor-titulo .titulo h3{
+        font-size: 28px;
+    }
+
+    #features .contenedor-titulo img{
+        width: 60%;
+        align-self: center;
+        margin-top: 10px;
+    }
+
+    #pricing .precios{
+        flex-direction: column;
+    }
+
+    #pricing .precios .card{
+        width: 100%;
+        display: flex;
+        margin-top: 30px;
+    }
+
+    #pricing .precios .card hr{
+        display: none;
+    }
+
+    #pricing .precios .card .boton{
+        height: min-content;
+        align-self: center;
+    }
+
+    #file{
+        flex-direction: column;
+    }
+
+    #file .left-content{
+        width: 100%;
+    }    
+    #file .right-content{
+        width: 100%;
+    }
+
+    #file .right-content img{
+        display: none;
+    }
+
+    #file .right-content{
+        text-align: center;
+    }
+
+    /* expert */
+
+    #expert .contenedor{
+        width: 90%;
+        padding: 90px 0px;
+    }
+
+    #easy{
+        margin-top: 60px;
+    }
+
+    #easy .imagen{
+        width: 49%;
+    }
+
+    #easy .titular ul{
+        display: none;
+    }
+
+    /* testimonials */
+    
+    #testimonials .testimonios{
+        flex-direction: column;
+    }
+
+    #testimonials .testimonios .card-testimonial{
+        width: 91%;
+        margin-bottom: 30px;
+    }
+
+
+    #satisfaction .contenedor-targetas{
+        flex-direction: column;
+    }
+
+    #satisfaction .contenedor-targetas .targeta{
+        width: 91%;
+        margin-bottom: 30px;
+    }
+
+    #treinta{
+        padding: 150px 0px 60px 0px;
+    }
+
+    #footer{
+        
+    }
+
+}
